@@ -1,0 +1,28 @@
+.select-movies {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #25262b;
+    border: 1px solid #373a40;
+    padding: 0.5em 2em 0.5em 0.8em;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+}
+
+.select-movies:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Estilo para las opciones del select */
+.select-movies option {
+    background-color: #25262b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    gap: 2rem;
+    margin: 1rem;
+}
